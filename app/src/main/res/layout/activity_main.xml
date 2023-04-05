@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <TextView
+        android:id="@android:id/candidatesArea"
+        android:visibility="gone"
+        style="@style/custom_tv"
+        android:gravity="center"
+        android:text="@string/tv_noNfc"
+        android:textColor="@color/colorRed"
+        />
+    <TextView
+        android:id="@+id/content_putCard"
+        android:visibility="gone"
+        style="@style/custom_tv"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/tv_tapYourCard"
+        app:drawableTopCompat="@drawable/nfc_scan" />
+    <include layout="@layout/content_main" />
+
+</LinearLayout>

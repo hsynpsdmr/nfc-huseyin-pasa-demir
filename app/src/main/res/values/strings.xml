@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Card Reader</string>
+    <string name="enable_nfc">Please enable NFC</string>
+    <string name="msg_info">Info</string>
+    <string name="msg_ok">Ok</string>
+    <string name="tv_noNfc">There is no NFC module on this device</string>
+    <string name="tv_tapYourCard">Please put your card to back panel of the phone</string>
+    <string name="progressBar_title">Scanning ...</string>
+    <string name="progressBar_mess">Please do not remove or move card during reading.</string>
+    <string name="add_card">Card has been added to the system.</string>
+    <string name="read_card">Card is present in the system.</string>
+</resources>
